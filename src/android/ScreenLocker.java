@@ -1,4 +1,4 @@
-package com.applurk.plugin;
+package de.garygrossgarten.cordova.screenlocker;
 
 import org.apache.cordova.CordovaWebView;
 import org.apache.cordova.CallbackContext;

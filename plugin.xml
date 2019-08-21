@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="com.applurk.cordova-screen-locker"
-        version="0.2.1">
+        id="de.garygrossgarten.cordova.screenlocker"
+        version="1.0.0">
     <name>Cordova ScreenLocker</name>
     <description>The plugin helps you to lock and unlock device screen programmatically</description>
     <license>Apache 2.0</license>
@@ -18,7 +18,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ScreenLocker">
-                <param name="android-package" value="com.applurk.plugin.ScreenLocker"/>
+                <param name="android-package" value="de.garygrossgarten.cordova.screenlocker.ScreenLocker"/>
             </feature>
         </config-file>
 
@@ -27,6 +27,6 @@
             <uses-permission android:name="android.permission.WAKE_LOCK" />
         </config-file>
 
-        <source-file src="src/android/ScreenLocker.java" target-dir="src/com/applurk/plugin"/>
+        <source-file src="src/android/ScreenLocker.java" target-dir="src/de/garygrossgarten/cordova"/>
     </platform>
 </plugin>
